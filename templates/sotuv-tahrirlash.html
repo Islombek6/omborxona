@@ -1,0 +1,58 @@
+{% extends 'base.html'%}
+{% block title %} Sotuvlar | Taxrirlash {%endblock%}
+{% block section %} Sotuvlar | Taxrirlash {%endblock%}
+{% block sotuv_active %} active {%endblock%}
+{% block content %}
+<!-- Modal body -->
+<form id="update-product-form" method="post">
+    {% csrf_token %}
+    <div class="modal-body">
+
+        <label for="mahsulot_id">Mahsulot:</label>
+        <select name="mahsulot_id" id="mahsulot_id" class="form-control" disabled>
+            {% for mahsulot in mahsulotlar %}
+            <option value="{{ mahsulot.id }}" {% if mahsulot.id == sotuv.mahsulot.id %}selected{% endif %}>{{ mahsulot.nom }}</option>
+            {% endfor %}
+        </select>
+        <br>
+
+        <label for="mijoz_id">Mijoz:</label>
+        <select name="mijoz_id" id="mijoz_id" class="form-control" disabled>
+            {% for mijoz in mijozlar %}
+            <option value="{{ mijoz.id }}" {% if mijoz.id == sotuv.mijoz.id %}selected{% endif %}>{{ mijoz.ism }} ({{ mijoz.dokon }})</option>
+            {% endfor %}
+        </select>
+        <br>
+
+        <label for="sana">Sana:</label>
+        <input type="datetime-local" name="sana" id="sana" class="form-control"
+               value="{{ sotuv.sana|date:'Y-m-d\TH:i' }}" disabled>
+        <br>
+
+        <label for="miqdor">Miqdor:</label>
+        <input type="number" name="miqdor" id="miqdor" class="form-control" value="{{ sotuv.miqdor }}" disabled>
+        <br>
+
+        <label for="jami_summa">Umumiy summa:</label>
+        <input type="number" name="jami_summa" id="jami_summa" class="form-control" value="{{ sotuv.jami_summa }}" disabled>
+        <br>
+
+        <label for="qarz">Qarz:</label>
+        <input type="number" name="qarz" id="qarz" class="form-control" value="{{ sotuv.qarz }}" required>
+        <br>
+
+        <label for="tolandi">To'landi:</label>
+        <input type="number" name="tolandi" id="tolandi" class="form-control" value="{{ sotuv.tolandi }}" disabled>
+        <br>
+    </div>
+
+    <!-- Modal footer -->
+    <div class="modal-footer">
+        <button type="submit" class="btn btn-success">Saqlash</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Yopish</button>
+    </div>
+</form>
+
+
+<!-- ./wrapper -->
+{%endblock %}

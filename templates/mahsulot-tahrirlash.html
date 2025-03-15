@@ -1,0 +1,58 @@
+{% extends 'base.html'%}
+{% block title %} Maxsulot | Taxrirlash {%endblock%}
+{% block section %} Maxsulot | Taxrirlash {%endblock%}
+{% block maxsulot_active %} active {%endblock%}
+
+{% block content %}
+
+{% load custom_filters %}
+<!-- Modal body -->
+<form id="edit-product-form" method="post" class="px-4">
+    {% csrf_token %}
+    <label for="nom">Mahsulot nomi:</label>
+    <input type="text" name="nom" value="{{maxsulot.nom}}" id="nom" class="form-control" required>
+    <br>
+    <label for="brend">Brend nomi:</label>
+    <input type="text" name="brend" value="{{maxsulot.brend}}" id="brend" class="form-control">
+    <br>
+    <label for="narx1">Sotib olish (so'm):</label>
+    <input type="number" name="narx1" value="{{maxsulot.narx1}}"  id="narx1" class="form-control" required>
+    <br>
+    <label for="narx2">Sotish (so'm):</label>
+    <input type="number" name="narx2" value="{{maxsulot.narx2}}"  id="narx2" class="form-control">
+    <br>
+    <label for="miqdor">Miqdori:</label>
+    <input type="number" name="miqdor" value="{{maxsulot.miqdor}}" id="miqdor" class="form-control" required>
+    <br>
+    <select id="olchov" name="olchov" required>
+        <option value="{{maxsulot.olchov}}">{{maxsulot.olchov}}</option>
+        <option value="dona">dona</option>
+        <option value="blok">blok</option>
+        <option value="kg">kg</option>
+        <option value="gram">gram</option>
+        <option value="tonna">tonna</option>
+        <option value="quti">quti</option>
+        <option value="litr">litr</option>
+        <option value="qop">qop</option>
+        <option value="m">m</option>
+        <option value="m">m</option>
+    </select>
+    <br>
+
+<label for="new-product-date">Kelgan sana:</label>
+<input type="datetime-local" name="sana" id="new-product-date"
+       value="{{ maxsulot.sana|date:'Y-m-d\TH:i'|default:'' }}"
+       class="form-control">
+<br>
+
+    <!-- Modal footer -->
+    <button type="submit" class="btn btn-success">Yangilash</button>
+    <a href="/mahsulotlar/">
+        <button type="button" class="btn btn-danger"  data-dismiss="modal">Yopish</button>
+    </a>
+
+</form>
+
+
+<!-- ./wrapper -->
+{%endblock %}

@@ -1,0 +1,34 @@
+{% extends 'base.html'%}
+{% block title %} Mijozlar | Taxrirlash {%endblock%}
+{% block section %} Mijozlar | Taxrirlash {%endblock%}
+{% block mijoz_active %} active {%endblock%}
+{% block content %}
+<!-- Modal body -->
+<form id="edit-product-form" method="post" class="px-4">
+    {% csrf_token %}
+    <label for="ism">FIO:</label>
+    <input type="text" name="ism" value="{{mijoz.ism}}" id="ism" class="form-control" required>
+    <br>
+    <label for="dokon">Do'kon nomi:</label>
+    <input type="text" name="dokon" value="{{mijoz.dokon}}" id="dokon" class="form-control" required>
+    <br>
+    <label for="telefon">Telefon raqami:</label>
+    <input type="text" name="telefon" value="{{mijoz.telefon}}" id="telefon" class="form-control" required>
+    <br>
+    <label for="manzil">Manzili:</label>
+    <input type="text" name="manzil" value="{{mijoz.manzil}}" id="manzil" class="form-control" required>
+    <br>
+    <label for="qarz">Manzili:</label>
+    <input type="number" name="qarz" value="{{mijoz.qarz}}" id="qarz" class="form-control" required>
+    <br>
+    <!-- Modal footer -->
+    <button type="submit" class="btn btn-success">Yangilash</button>
+    <a href="{%url 'mijozlar'%}">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Yopish</button>
+    </a>
+
+</form>
+
+
+<!-- ./wrapper -->
+{%endblock %}
