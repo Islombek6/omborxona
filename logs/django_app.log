@@ -1,0 +1,294 @@
+INFO 2025-05-29 08:12:32,318 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-05-29 08:12:46,360 django.server "GET /admin/auth/user/2/password/ HTTP/1.1" 200 9931
+INFO 2025-05-29 08:12:47,486 django.server "GET /admin/auth/user/2/change/ HTTP/1.1" 200 23796
+INFO 2025-05-29 08:12:48,830 django.server "GET /admin/auth/user/ HTTP/1.1" 200 13257
+INFO 2025-05-29 08:12:49,579 django.server "GET /admin/ HTTP/1.1" 200 10948
+INFO 2025-05-29 08:12:50,303 django.server "GET / HTTP/1.1" 200 1717
+INFO 2025-05-29 08:12:51,664 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 08:12:54,084 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 08:12:54,095 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 08:12:54,860 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 08:12:54,872 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 08:12:55,818 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 08:12:55,830 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 08:12:56,951 django.server - Broken pipe from ('127.0.0.1', 50394)
+INFO 2025-05-29 08:12:57,245 django.server - Broken pipe from ('127.0.0.1', 50395)
+INFO 2025-05-29 08:12:57,549 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 08:12:57,560 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 08:12:58,333 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 08:12:58,344 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 08:12:59,162 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 08:12:59,172 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 08:18:31,832 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-05-29 08:18:51,686 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-05-29 08:20:01,610 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-05-29 08:20:04,064 django.server "GET / HTTP/1.1" 302 0
+INFO 2025-05-29 08:20:05,360 django.server "GET /users/login/ HTTP/1.1" 200 1488
+WARNING 2025-05-29 08:20:05,441 django.request Not Found: /favicon.ico
+WARNING 2025-05-29 08:20:05,442 django.server "GET /favicon.ico HTTP/1.1" 404 4818
+INFO 2025-05-29 08:20:57,254 django.server "GET / HTTP/1.1" 302 0
+INFO 2025-05-29 08:20:57,271 django.server "GET /users/login/ HTTP/1.1" 200 1488
+WARNING 2025-05-29 08:20:57,448 django.request Not Found: /favicon.ico
+WARNING 2025-05-29 08:20:57,449 django.server "GET /favicon.ico HTTP/1.1" 404 4818
+INFO 2025-05-29 08:21:09,565 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 08:21:09,589 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 08:21:12,083 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 08:21:13,467 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 08:21:13,622 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 08:21:16,099 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 08:21:16,121 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 08:21:17,684 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 08:21:17,708 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 08:21:18,529 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 08:21:18,563 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 08:21:19,639 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 08:21:19,737 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 08:21:22,203 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 08:21:22,227 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 08:21:24,424 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 08:21:25,453 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 08:21:25,614 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 08:21:29,524 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 08:21:29,613 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 08:21:31,120 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 08:21:31,216 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 08:21:35,657 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 08:21:35,679 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 08:21:59,085 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 08:21:59,106 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 08:22:05,085 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 08:22:05,356 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 08:22:12,627 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 08:22:12,663 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 08:22:23,013 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 08:22:23,078 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 08:22:57,510 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 08:22:58,222 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 08:23:21,776 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 08:23:22,082 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 08:25:30,014 django.server - Broken pipe from ('192.168.1.13', 38306)
+INFO 2025-05-29 08:25:30,015 django.server - Broken pipe from ('192.168.1.13', 38328)
+INFO 2025-05-29 08:28:38,323 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 08:28:38,464 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 08:29:04,593 django.utils.autoreload F:\py_projects\omborxona\users\views.py changed, reloading.
+INFO 2025-05-29 08:29:05,270 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-05-29 08:31:00,792 django.utils.autoreload F:\py_projects\omborxona\users\views.py changed, reloading.
+INFO 2025-05-29 08:31:01,395 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-05-29 08:31:08,912 django LOGIN ATTEMPT: IP=192.168.1.13, USERNAME=
+INFO 2025-05-29 08:31:09,295 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 08:31:09,418 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 08:31:21,438 django LOGIN ATTEMPT: IP=192.168.1.13, USERNAME=
+INFO 2025-05-29 08:31:21,827 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 08:31:21,998 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 08:31:43,766 django LOGIN ATTEMPT: IP=192.168.1.13, USERNAME=
+INFO 2025-05-29 08:31:44,153 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 08:31:44,219 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 08:31:44,821 django LOGIN ATTEMPT: IP=192.168.1.13, USERNAME=
+INFO 2025-05-29 08:31:45,182 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 08:31:45,275 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 08:31:46,256 django LOGIN ATTEMPT: IP=192.168.1.13, USERNAME=
+INFO 2025-05-29 08:31:46,615 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 08:31:46,682 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 08:32:02,482 django LOGIN ATTEMPT: IP=192.168.1.13, USERNAME=
+INFO 2025-05-29 08:32:02,839 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 08:32:02,971 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 08:34:06,677 django.server "GET / HTTP/1.1" 302 0
+INFO 2025-05-29 08:34:06,836 django.server "GET /users/login/ HTTP/1.1" 200 1488
+WARNING 2025-05-29 08:34:06,977 django.request Not Found: /favicon.ico
+WARNING 2025-05-29 08:34:06,978 django.server "GET /favicon.ico HTTP/1.1" 404 4818
+INFO 2025-05-29 08:34:08,963 django LOGIN ATTEMPT: IP=192.168.1.18, USERNAME=
+INFO 2025-05-29 08:34:09,327 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 08:34:09,425 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 08:34:09,466 django LOGIN ATTEMPT: IP=192.168.1.18, USERNAME=
+INFO 2025-05-29 08:34:09,830 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 08:34:11,352 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 08:34:12,046 django LOGIN ATTEMPT: IP=192.168.1.18, USERNAME=
+INFO 2025-05-29 08:34:12,405 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 08:34:12,472 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 08:34:13,150 django LOGIN ATTEMPT: IP=192.168.1.18, USERNAME=
+INFO 2025-05-29 08:34:13,528 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 08:34:13,546 django LOGIN ATTEMPT: IP=192.168.1.18, USERNAME=
+INFO 2025-05-29 08:34:13,914 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 08:34:14,011 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 08:34:14,938 django LOGIN ATTEMPT: IP=192.168.1.18, USERNAME=
+INFO 2025-05-29 08:34:15,296 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 08:34:15,373 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 10:00:01,188 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-05-29 10:00:48,405 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-05-29 10:00:57,968 django.server "GET / HTTP/1.1" 302 0
+INFO 2025-05-29 10:00:58,029 django.server "GET /users/login/ HTTP/1.1" 200 1488
+WARNING 2025-05-29 10:00:58,196 django.request Not Found: /favicon.ico
+WARNING 2025-05-29 10:00:58,196 django.server "GET /favicon.ico HTTP/1.1" 404 4819
+INFO 2025-05-29 10:23:53,006 django.server "GET / HTTP/1.1" 302 0
+INFO 2025-05-29 10:23:53,041 django.server "GET /users/login/ HTTP/1.1" 200 1488
+WARNING 2025-05-29 10:23:53,191 django.request Not Found: /favicon.ico
+WARNING 2025-05-29 10:23:53,192 django.server "GET /favicon.ico HTTP/1.1" 404 4819
+INFO 2025-05-29 10:25:56,082 django.server "GET / HTTP/1.1" 302 0
+INFO 2025-05-29 10:25:56,101 django.server "GET /users/login/ HTTP/1.1" 200 1488
+WARNING 2025-05-29 10:25:56,253 django.request Not Found: /favicon.ico
+WARNING 2025-05-29 10:25:56,254 django.server "GET /favicon.ico HTTP/1.1" 404 4819
+INFO 2025-05-29 10:27:39,433 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 10:29:04,916 django LOGIN ATTEMPT: IP=192.168.42.111, USERNAME=
+INFO 2025-05-29 10:29:05,453 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 10:29:05,564 django LOGIN ATTEMPT: IP=192.168.42.111, USERNAME=
+INFO 2025-05-29 10:29:06,213 django LOGIN ATTEMPT: IP=192.168.42.111, USERNAME=
+INFO 2025-05-29 10:29:06,719 django LOGIN ATTEMPT: IP=192.168.42.111, USERNAME=
+INFO 2025-05-29 10:29:07,088 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 10:29:07,193 django LOGIN ATTEMPT: IP=192.168.42.111, USERNAME=
+INFO 2025-05-29 10:29:07,635 django LOGIN ATTEMPT: IP=192.168.42.111, USERNAME=
+INFO 2025-05-29 10:29:07,812 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 10:29:07,821 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 10:29:07,910 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 10:29:07,951 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 10:29:08,121 django LOGIN ATTEMPT: IP=192.168.42.111, USERNAME=
+INFO 2025-05-29 10:29:08,205 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 10:29:08,554 django LOGIN ATTEMPT: IP=192.168.42.111, USERNAME=
+INFO 2025-05-29 10:29:08,622 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 10:29:09,026 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 10:29:09,078 django LOGIN ATTEMPT: IP=192.168.42.111, USERNAME=
+INFO 2025-05-29 10:29:09,551 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 10:29:09,574 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 10:29:09,627 django LOGIN ATTEMPT: IP=192.168.42.111, USERNAME=
+INFO 2025-05-29 10:29:10,009 django LOGIN ATTEMPT: IP=192.168.42.111, USERNAME=
+INFO 2025-05-29 10:29:10,145 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 10:29:10,364 django LOGIN ATTEMPT: IP=192.168.42.111, USERNAME=
+INFO 2025-05-29 10:29:10,527 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 10:29:10,934 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-29 10:29:10,959 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-29 10:31:11,831 django.server - Broken pipe from ('192.168.42.111', 45072)
+INFO 2025-05-29 10:31:11,831 django.server - Broken pipe from ('192.168.42.111', 45074)
+INFO 2025-05-30 08:29:03,981 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-05-30 08:29:08,742 django.server "GET / HTTP/1.1" 200 1717
+WARNING 2025-05-30 08:29:09,554 django.request Not Found: /favicon.ico
+WARNING 2025-05-30 08:29:09,555 django.server "GET /favicon.ico HTTP/1.1" 404 4815
+INFO 2025-05-30 08:29:13,772 django.server "GET / HTTP/1.1" 200 1717
+INFO 2025-05-30 08:29:19,792 django.server "GET /admin/ HTTP/1.1" 200 10948
+INFO 2025-05-30 08:29:29,994 django.server "GET / HTTP/1.1" 200 1717
+INFO 2025-05-30 08:29:32,328 django.server "GET / HTTP/1.1" 200 1717
+INFO 2025-05-30 08:29:33,234 django.server "GET / HTTP/1.1" 200 1717
+INFO 2025-05-30 08:29:33,903 django.server "GET / HTTP/1.1" 200 1717
+INFO 2025-05-30 08:29:34,473 django.server "GET / HTTP/1.1" 200 1717
+INFO 2025-05-30 08:29:34,601 django.server "GET / HTTP/1.1" 200 1717
+INFO 2025-05-30 08:29:34,717 django.server "GET / HTTP/1.1" 200 1717
+INFO 2025-05-30 08:29:34,984 django.server "GET / HTTP/1.1" 200 1717
+INFO 2025-05-30 08:29:35,257 django.server "GET / HTTP/1.1" 200 1717
+INFO 2025-05-30 08:29:35,511 django.server "GET / HTTP/1.1" 200 1717
+INFO 2025-05-30 08:29:35,643 django.server "GET / HTTP/1.1" 200 1717
+INFO 2025-05-30 08:29:35,767 django.server "GET / HTTP/1.1" 200 1717
+INFO 2025-05-30 08:29:35,899 django.server "GET / HTTP/1.1" 200 1717
+INFO 2025-05-30 08:29:36,168 django.server "GET / HTTP/1.1" 200 1717
+INFO 2025-05-30 08:29:36,295 django.server "GET / HTTP/1.1" 200 1717
+INFO 2025-05-30 08:29:36,451 django.server "GET / HTTP/1.1" 200 1717
+INFO 2025-05-30 08:29:36,585 django.server "GET / HTTP/1.1" 200 1717
+INFO 2025-05-30 08:29:36,811 django.server "GET / HTTP/1.1" 200 1717
+INFO 2025-05-30 08:29:37,379 django.server "GET / HTTP/1.1" 200 1717
+INFO 2025-05-30 08:29:37,605 django.server "GET / HTTP/1.1" 200 1717
+INFO 2025-05-30 08:29:42,044 django.server "GET / HTTP/1.1" 200 1717
+INFO 2025-05-30 08:29:55,810 django.server "GET / HTTP/1.1" 200 1717
+WARNING 2025-05-30 08:29:55,869 django.request Not Found: /favicon.ico
+WARNING 2025-05-30 08:29:55,869 django.server "GET /favicon.ico HTTP/1.1" 404 4815
+INFO 2025-05-30 08:29:56,410 django.server "GET / HTTP/1.1" 200 1717
+WARNING 2025-05-30 08:29:56,472 django.request Not Found: /favicon.ico
+WARNING 2025-05-30 08:29:56,472 django.server "GET /favicon.ico HTTP/1.1" 404 4815
+INFO 2025-05-30 08:29:56,690 django.server "GET / HTTP/1.1" 200 1717
+WARNING 2025-05-30 08:29:56,748 django.request Not Found: /favicon.ico
+WARNING 2025-05-30 08:29:56,748 django.server "GET /favicon.ico HTTP/1.1" 404 4815
+INFO 2025-05-30 08:29:56,876 django.server "GET / HTTP/1.1" 200 1717
+WARNING 2025-05-30 08:29:56,940 django.request Not Found: /favicon.ico
+WARNING 2025-05-30 08:29:56,940 django.server "GET /favicon.ico HTTP/1.1" 404 4815
+INFO 2025-05-30 08:29:57,012 django.server "GET / HTTP/1.1" 200 1717
+WARNING 2025-05-30 08:29:57,066 django.request Not Found: /favicon.ico
+WARNING 2025-05-30 08:29:57,066 django.server "GET /favicon.ico HTTP/1.1" 404 4815
+INFO 2025-05-30 08:29:57,179 django.server "GET / HTTP/1.1" 200 1717
+WARNING 2025-05-30 08:29:57,247 django.request Not Found: /favicon.ico
+WARNING 2025-05-30 08:29:57,247 django.server "GET /favicon.ico HTTP/1.1" 404 4815
+INFO 2025-05-30 08:29:57,322 django.server "GET / HTTP/1.1" 200 1717
+WARNING 2025-05-30 08:29:57,387 django.request Not Found: /favicon.ico
+WARNING 2025-05-30 08:29:57,421 django.server "GET /favicon.ico HTTP/1.1" 404 4815
+INFO 2025-05-30 08:29:57,467 django.server "GET / HTTP/1.1" 200 1717
+WARNING 2025-05-30 08:29:57,520 django.request Not Found: /favicon.ico
+WARNING 2025-05-30 08:29:57,520 django.server "GET /favicon.ico HTTP/1.1" 404 4815
+INFO 2025-05-30 08:29:57,591 django.server "GET / HTTP/1.1" 200 1717
+WARNING 2025-05-30 08:29:57,635 django.request Not Found: /favicon.ico
+WARNING 2025-05-30 08:29:57,636 django.server "GET /favicon.ico HTTP/1.1" 404 4815
+INFO 2025-05-30 08:29:57,701 django.server "GET / HTTP/1.1" 200 1717
+WARNING 2025-05-30 08:29:57,761 django.request Not Found: /favicon.ico
+WARNING 2025-05-30 08:29:57,761 django.server "GET /favicon.ico HTTP/1.1" 404 4815
+INFO 2025-05-30 08:29:57,814 django.server "GET / HTTP/1.1" 200 1717
+WARNING 2025-05-30 08:29:57,873 django.request Not Found: /favicon.ico
+WARNING 2025-05-30 08:29:57,873 django.server "GET /favicon.ico HTTP/1.1" 404 4815
+INFO 2025-05-30 08:29:57,922 django.server "GET / HTTP/1.1" 200 1717
+WARNING 2025-05-30 08:29:57,969 django.request Not Found: /favicon.ico
+WARNING 2025-05-30 08:29:57,970 django.server "GET /favicon.ico HTTP/1.1" 404 4815
+INFO 2025-05-30 08:32:44,714 django.server "GET /mahsulotlar/ HTTP/1.1" 200 10961
+INFO 2025-05-30 08:32:44,915 django.server "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 59305
+INFO 2025-05-30 08:32:44,927 django.server "GET /static/dist/img/vegetable-illustration-for-logo-vector.jpg HTTP/1.1" 200 73626
+INFO 2025-05-30 08:32:44,981 django.server "GET /media/sotuvchilar/20241224221626_jAGMHmB.png HTTP/1.1" 200 1521007
+INFO 2025-05-30 08:32:45,058 django.server "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 1370896
+INFO 2025-05-30 08:32:45,081 django.server "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 89501
+INFO 2025-05-30 08:32:45,146 django.server "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 84378
+INFO 2025-05-30 08:32:45,271 django.server "GET /static/js/delete.js HTTP/1.1" 200 477
+INFO 2025-05-30 08:32:45,299 django.server "GET /static/js/delete_sotuv.js HTTP/1.1" 200 478
+INFO 2025-05-30 08:32:45,312 django.server "GET /static/js/delete_mijoz.js HTTP/1.1" 200 489
+INFO 2025-05-30 08:32:45,314 django.server "GET /static/plugins/chart.js/Chart.min.js HTTP/1.1" 200 173077
+INFO 2025-05-30 08:32:45,319 django.server "GET /static/dist/js/pages/dashboard3.js HTTP/1.1" 200 3487
+INFO 2025-05-30 08:32:45,354 django.server "GET /static/dist/js/adminlte.js HTTP/1.1" 200 103674
+INFO 2025-05-30 08:32:45,364 django.server "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13224
+INFO 2025-05-30 08:32:45,386 django.server "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 78268
+WARNING 2025-05-30 08:32:55,879 django.request Not Found: /login/
+WARNING 2025-05-30 08:32:55,880 django.server "GET /login/ HTTP/1.1" 404 4800
+INFO 2025-05-30 08:34:45,878 django.server "GET /mahsulotlar/ HTTP/1.1" 200 10961
+INFO 2025-05-30 08:34:50,573 django.server "GET /users/logout/ HTTP/1.1" 302 0
+INFO 2025-05-30 08:34:50,643 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-30 08:35:06,120 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-05-30 08:35:10,770 django.server "GET / HTTP/1.1" 302 0
+INFO 2025-05-30 08:35:10,789 django.server "GET /users/login/ HTTP/1.1" 200 1488
+WARNING 2025-05-30 08:35:11,693 django.request Not Found: /favicon.ico
+WARNING 2025-05-30 08:35:11,693 django.server "GET /favicon.ico HTTP/1.1" 404 4815
+INFO 2025-05-30 08:35:25,578 django.server "GET / HTTP/1.1" 302 0
+INFO 2025-05-30 08:35:25,586 django.server "GET /users/login/ HTTP/1.1" 200 1488
+WARNING 2025-05-30 08:35:26,448 django.request Not Found: /favicon.ico
+WARNING 2025-05-30 08:35:26,449 django.server "GET /favicon.ico HTTP/1.1" 404 4815
+INFO 2025-05-30 08:35:35,146 django LOGIN ATTEMPT: IP=127.0.0.1, USERNAME=generalissimus
+INFO 2025-05-30 08:35:36,883 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-30 08:35:36,905 django.server "GET / HTTP/1.1" 200 1717
+INFO 2025-05-30 08:35:39,296 django.server "GET /admin/ HTTP/1.1" 200 10948
+INFO 2025-05-30 08:35:41,822 django.server "GET /admin/auth/user/ HTTP/1.1" 200 13257
+INFO 2025-05-30 08:35:41,957 django.server "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-30 08:35:44,495 django.server "GET /admin/auth/user/2/change/ HTTP/1.1" 200 23796
+INFO 2025-05-30 08:35:44,525 django.server "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-30 08:35:48,642 django.server "GET /admin/auth/user/2/password/ HTTP/1.1" 200 9931
+INFO 2025-05-30 08:36:13,433 django.server "POST /admin/auth/user/2/password/ HTTP/1.1" 302 0
+INFO 2025-05-30 08:36:13,527 django.server "GET /admin/auth/user/2/change/ HTTP/1.1" 200 23932
+INFO 2025-05-30 08:36:13,588 django.server "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-30 08:36:20,338 django.server "GET /admin/auth/user/2/password/ HTTP/1.1" 200 9931
+INFO 2025-05-30 08:36:21,301 django.server "GET /admin/auth/user/2/change/ HTTP/1.1" 200 23796
+INFO 2025-05-30 08:36:21,989 django.server "GET /admin/auth/user/ HTTP/1.1" 200 13257
+INFO 2025-05-30 08:36:22,873 django.server "GET /admin/ HTTP/1.1" 200 10953
+WARNING 2025-05-30 08:36:46,624 django.security.csrf Forbidden (CSRF token from POST incorrect.): /users/login/
+WARNING 2025-05-30 08:36:46,625 django.server "POST /users/login/ HTTP/1.1" 403 2503
+WARNING 2025-05-30 08:37:26,034 django.security.csrf Forbidden (CSRF token from POST incorrect.): /users/login/
+WARNING 2025-05-30 08:37:26,035 django.server "POST /users/login/ HTTP/1.1" 403 2503
+INFO 2025-05-30 08:37:30,847 django.server "GET /users/login/ HTTP/1.1" 200 1488
+INFO 2025-05-30 08:37:39,077 django LOGIN ATTEMPT: IP=127.0.0.1, USERNAME=Islombek
+INFO 2025-05-30 08:37:40,839 django.server "POST /users/login/ HTTP/1.1" 302 0
+INFO 2025-05-30 08:37:40,860 django.server "GET / HTTP/1.1" 200 1612
+INFO 2025-05-30 08:37:48,518 django.server "GET /mahsulotlar/ HTTP/1.1" 200 13697
+INFO 2025-05-30 08:37:48,707 django.server "GET /media/sotuvchilar/Screenshot_2025-02-23-22-55-54-663_com_vBgVZUi.miHoYo.GenshinImpact.jpg HTTP/1.1" 200 1372497
+INFO 2025-05-30 08:38:22,029 django.server "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-05-30 08:38:22,392 django.server "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3677
+INFO 2025-05-30 08:38:30,651 django.server "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-05-30 08:38:30,690 django.server "GET /admin/ HTTP/1.1" 200 10953
+INFO 2025-05-30 08:38:34,222 django.server "GET /admin/auth/user/ HTTP/1.1" 200 13257
+INFO 2025-05-30 08:38:34,279 django.server "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-30 08:38:36,048 django.server "GET /admin/auth/user/1/change/ HTTP/1.1" 200 23799
+INFO 2025-05-30 08:38:36,093 django.server "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-30 08:38:56,941 django.server "GET /admin/auth/user/1/password/ HTTP/1.1" 200 9961
+INFO 2025-05-30 08:39:12,854 django.server "POST /admin/auth/user/1/password/ HTTP/1.1" 302 0
+INFO 2025-05-30 08:39:12,945 django.server "GET /admin/auth/user/1/change/ HTTP/1.1" 200 23935
+INFO 2025-05-30 08:39:13,007 django.server "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-30 08:39:28,560 django.server "POST /admin/auth/user/1/change/ HTTP/1.1" 302 0
+INFO 2025-05-30 08:39:28,610 django.server "GET /admin/auth/user/ HTTP/1.1" 200 13439
+INFO 2025-05-30 08:39:28,652 django.server "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-30 08:39:31,693 django.server "GET /admin/auth/user/1/change/ HTTP/1.1" 200 23774
+INFO 2025-05-30 08:39:31,739 django.server "GET /admin/jsi18n/ HTTP/1.1" 200 3342
